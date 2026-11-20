@@ -35,7 +35,7 @@ las-plane-inspect your-scan.las --threshold 0.03 --planes 4 --max-points 250000 
 
 ## Full-size case study
 
-Download the original **34.las** (65,245,573 points, about 1.30 GB) from the [v0.1.0 release](https://github.com/daixy7891-beep/las-plane-inspector/releases/tag/v0.1.0).
+Download **34.las.zip** from the [v0.1.0 release](https://github.com/daixy7891-beep/las-plane-inspector/releases/tag/v0.1.0) and extract it before running the command. It contains the complete original **34.las** (65,245,573 points, about 1.30 GB uncompressed). The release notes include the original file's SHA-256.
 
 ```sh
 las-plane-inspect 34.las --threshold 0.045 --bbox -0.9 -5.2 -1.5 10 10.7 2.5 --max-points 600000 --planes 3 --trials 400 --output results/full
