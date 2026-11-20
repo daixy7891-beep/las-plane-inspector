@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "las-plane-inspector"
+version = "0.1.0"
+description = "Extract and inspect dominant planes in LAS/LAZ point clouds"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["laspy>=2.5,<3", "numpy>=1.24,<3", "matplotlib>=3.7,<4"]
+
+[project.optional-dependencies]
+laz = ["lazrs>=0.6,<1"]
+
+[project.scripts]
+las-plane-inspect = "las_plane_inspector.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["las_plane_inspector*"]

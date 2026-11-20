@@ -1,0 +1,46 @@
+{
+  "name": "34.las",
+  "las_version": "1.2",
+  "point_format": 0,
+  "source_point_count": 65245573,
+  "coordinate_scale": [
+    0.001,
+    0.001,
+    0.001
+  ],
+  "eligible_point_count": 64905548,
+  "bbox": [
+    -0.9,
+    -5.2,
+    -1.5,
+    10.0,
+    10.7,
+    2.5
+  ],
+  "seed": 42,
+  "max_points": 600000,
+  "sampled_points": 600000,
+  "fit_points": 450000,
+  "holdout_points": 150000,
+  "requested_planes": 3,
+  "planes_found": 3,
+  "ransac_trials_per_plane": 400,
+  "minimum_fit_support": 0.03,
+  "distance_threshold": 0.045,
+  "holdout_coverage": 0.6466866666666666,
+  "fixed_plane_threshold_sweep": [
+    {
+      "threshold": 0.0225,
+      "coverage": 0.6353266666666667
+    },
+    {
+      "threshold": 0.045,
+      "coverage": 0.6466866666666666
+    },
+    {
+      "threshold": 0.09,
+      "coverage": 0.6591666666666667
+    }
+  ],
+  "metric_units": "input coordinate units"
+}
